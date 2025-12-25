@@ -29,7 +29,6 @@ function LoginPage() {
   
       localStorage.setItem("token", data.token);
       
-      // ADD THESE LINES - Store user data if available
       if (data.user) {
         localStorage.setItem("userData", JSON.stringify(data.user));
         login(data.user, data.token); // Update auth context
