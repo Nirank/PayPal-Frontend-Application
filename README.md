@@ -1,74 +1,145 @@
-<<<<<<< HEAD
-# PayPal-Frontend-Application
-=======
-# Getting Started with Create React App
+# PayPal Frontend Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based frontend application that simulates a PayPal-style checkout interface. This project demonstrates modern frontend development practices and serves as a foundation for integrating PayPal payment flows with a backend system.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Project Overview
 
-### `npm start`
+The PayPal Frontend Application is a client-side web application built using **React** and **Create React App**. It focuses on providing a clean UI structure for payment-related workflows and can be easily connected to backend APIs for real-world PayPal order creation and payment processing.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is suitable for:
+- Learning frontend payment UI patterns
+- Integrating PayPal Checkout with backend services
+- Showcasing frontend skills in interviews and resumes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React-based single-page application
+- Modular and reusable UI components
+- SCSS-based styling
+- Ready to integrate with PayPal JavaScript SDK
+- Easily connectable with backend REST APIs
+- Clean project structure following best practices
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧱 Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**
+- **Create React App**
+- **JavaScript (ES6+)**
+- **SCSS**
+- **HTML5 & CSS3**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📂 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+PayPal-Frontend-Application/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── styles/            # SCSS styles
+│   ├── App.js             # Root component
+│   ├── index.js           # Application entry point
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+````
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## ⚙️ Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Make sure the following are installed on your system:
+- **Node.js** (v14 or higher)
+- **npm** or **yarn**
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Installation
 
-### Analyzing the Bundle Size
+Clone the repository:
+```bash
+git clone https://github.com/Nirank/PayPal-Frontend-Application.git
+````
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Navigate to the project directory:
 
-### Making a Progressive Web App
+```bash
+cd PayPal-Frontend-Application
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Install dependencies:
 
-### Advanced Configuration
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## ▶️ Running the Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Start the development server:
 
-### `npm run build` fails to minify
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 4df7db1 (Initialize project using Create React App)
+The application will be available at:
+
+```
+http://localhost:3000
+```
+
+The app automatically reloads on code changes.
+
+---
+
+## 🧪 Available Scripts
+
+| Command         | Description                        |
+| --------------- | ---------------------------------- |
+| `npm start`     | Runs the app in development mode   |
+| `npm test`      | Launches the test runner           |
+| `npm run build` | Builds the app for production      |
+| `npm run eject` | Ejects CRA configuration (one-way) |
+
+---
+
+## 🔗 PayPal Integration (Future Scope)
+
+This frontend is designed to work with a backend service that:
+
+* Creates PayPal orders
+* Captures payments securely
+* Handles success/failure callbacks
+
+To enable real PayPal payments:
+
+1. Create backend endpoints (e.g. `/create-order`, `/capture-order`)
+2. Integrate PayPal JavaScript SDK
+3. Use sandbox or live PayPal client IDs
+
+
+
+
+
+## 👨‍💻 Author
+
+**Nirank Jawale**
+Software Developer | Java & Full Stack Enthusiast
+
