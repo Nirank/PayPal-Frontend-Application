@@ -29,7 +29,7 @@ This project is suitable for:
 ## 🧱 Tech Stack
 
 - **React**
-- **Create React App**
+- **Redux**
 - **JavaScript (ES6+)**
 - **SCSS**
 - **HTML5 & CSS3**
